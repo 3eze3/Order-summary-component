@@ -1,0 +1,25 @@
+:root {
+  --font-size: 1rem;
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --weigth: 500;
+  --weigth: 700;
+  --weigth: 900;
+}
+
+body {
+  font-size: var(--font-size);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
