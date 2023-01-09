@@ -20,10 +20,37 @@
     <title>Order summary card</title>
   </head>
   <body>
-    Order Summary You can now listen to millions of songs, audiobooks, and
-    podcasts on any device anywhere you like! Annual Plan $59.99/year Change
-    Proceed to Payment Cancel Order
-
+    <main class="card">
+      <section class="card__container">
+        <div class="card__image">
+          <img
+            src="images/illustration-hero.svg"
+            alt="Person listen music"
+            title="illustration hero" />
+        </div>
+        <div class="card__content">
+          <h1 class="card__title">Order Summary</h1>
+          <p class="card__description">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+        <div class="card__payment payment">
+          <div class="payment__description">
+            <img src="images/icon-music.svg" alt="Icon Music" />
+            <p class="payment__plan">
+              <span class="payment__time">Annual Plan</span>
+              $59.99/year
+            </p>
+          </div>
+          <a href="#">Change</a>
+        </div>
+        <div class="card__containersbtn">
+          <button class="card__btnpay">Proceed to Payment</button>
+          <a href="#">Cancel Order</a>
+        </div>
+      </section>
+    </main>
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
